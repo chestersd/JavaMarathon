@@ -1,11 +1,9 @@
 package org.chester_sd.day1;
 
-public class Task1 {
+public class Task2 {
     public static void main(String[] args) {
-        int counter = 0;
-        while (counter < 10) {
+        for (int i = 0; i < 5; i++){
             System.out.print("JAVA ");
-            counter++;
         }
     }
 }
