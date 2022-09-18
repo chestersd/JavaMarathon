@@ -10,9 +10,9 @@ public class MessageDatabase {
         messages.add(new Message(sender, receiver, text));
 
     }
-    public static List<Message> getMessages() {
-
-    }
+//    public static List<Message> getMessages() {
+//
+//    }
 
     public static void showDialog(User u1, User u2) {
         for (Message message : messages) {
