@@ -28,6 +28,7 @@ public class Task3 {
                 Person currentPerson = new Person(person[0], Integer.parseInt(person[1]));
                 people.add(currentPerson);
             }
+            scanner.close();
             return people;
         } catch (FileNotFoundException e) {
             System.out.println("people file not found");
@@ -35,7 +36,6 @@ public class Task3 {
             System.out.println("people file not valid");
         }
         return null;
-
 
     }
 }

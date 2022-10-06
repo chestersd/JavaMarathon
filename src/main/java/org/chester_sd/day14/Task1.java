@@ -27,6 +27,8 @@ public class Task1 {
                 sum += Integer.parseInt(number);
             System.out.println(sum);
 
+            scanner.close();
+
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IllegalArgumentException e) {

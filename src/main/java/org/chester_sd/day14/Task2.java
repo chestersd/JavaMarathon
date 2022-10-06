@@ -25,7 +25,10 @@ public class Task2 {
                     throw new IllegalArgumentException();
                 people.add(line);
             }
+            scanner.close();
             return people;
+
+
         } catch (FileNotFoundException e) {
             System.out.println("people file not found");
         } catch (IllegalArgumentException e) {
