@@ -23,6 +23,11 @@ public class TextFileWriter {
 
             while (scanner.hasNextLine())  {
                 String line = scanner.nextLine();
+
+                if (line.contains("#")) {
+                    continue;
+                }
+
                 String[] shoes = line.split(";");
                 if (Integer.parseInt(shoes[1]) < 33)
                     throw new IllegalArgumentException();
