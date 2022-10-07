@@ -1,0 +1,11 @@
+Nike, 43, 12
+Adidas, 37, 20
+Marko, 42, 0
+BelWest, 36, 0
+Garsing, 44, 0
+Skechers, 43, 0
+RALF RINGER, 38, 7
+Timberland, 39, 9
+Tervolina, 37, 5
+Puma, 41, 0
+GEOX, 40, 2
